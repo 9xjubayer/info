@@ -180,7 +180,7 @@ async def get_account_info():
         return jsonify(formatted), 200
     
     except Exception as e:
-        return jsonify({"error": "Invalid UID or server error. Please try again."}), 500
+        return jsonify({"error": "Invalid UID or server error. Please try again.created by @jubayer_ahmed_34. join our telegram @Mr.ghost34"}), 500
 
 @app.route('/refresh', methods=['GET', 'POST'])
 def refresh_tokens_endpoint():
